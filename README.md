@@ -78,11 +78,11 @@ Worksheets(yearValue).Activate
 
 **Outcomes 2017** 
 
-![VBA_Challenge_2017](https://github.com/Zainak94/stock-analysis/blob/main/VBA_Challenge_2017)
+![VBA_Challenge_2017](https://github.com/Zainak94/stock-analysis/blob/main/VBA_Challenge_2017.PNG)
 
 **Outcomes 2018**
 
-![VBA_Challenge_2018](https://github.com/Zainak94/stock-analysis/blob/main/VBA_Challenge_2018)
+![VBA_Challenge_2018](https://github.com/Zainak94/stock-analysis/blob/main/VBA_Challenge_2018.PNG)
 
 ### **Summary**
 
