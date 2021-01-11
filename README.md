@@ -99,7 +99,8 @@ Worksheets(yearValue).Activate
 
 ![VBA_Challenge_2018](https://github.com/Zainak94/stock-analysis/blob/main/VBA_Challenge_2018.PNG)
 
-##**Final Conclusion**
+## **Final Conclusion**
+
 All stocks in 2017 have positive returns except “TERP” with the negative return of 7.20%. Prior to refactoring, the code ran in 1.34375 seconds for the year 2017. After refactoring, the code ran in 0.234375 seconds for the year 2017. This tells us how efficient it makes it for the users to run the code faster than expected. 
 
 All stocks in 2018 have only 2 positive returns of stocks “ENPH” and “RUN”. We can clearly see the performance of the stocks. Prior to refactoring, the code ran in 1.367188 seconds for the year 2018. After refactoring, the code ran in 0.21875 seconds for the year 2018. 
