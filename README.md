@@ -79,6 +79,7 @@ Worksheets(yearValue).Activate
   **Step 4**
     
   '4) Loop through your arrays to output the Ticker, Total Daily Volume, and Return.
+  
         Dim returnValue  As Double
        Worksheets("All Stocks Analysis").Activate
            For i = 0 To 11
