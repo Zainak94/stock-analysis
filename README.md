@@ -7,7 +7,7 @@ In this project, we must analyze the Stock Market Dataset using VBA solution cod
 ### **Purpose**
 The purpose of this project is to refractor the Microsoft VBA code to collect stock information for both years 2017 and 2018, to analyze the stock performances. These stock performances will show which stock is worth investing in. The first analysis in Model 1 of this data was successful, but we have to refractor this code to increase the efficiency of the original code which will be more effective in many ways.
 
-## **Results**
+### **Results**
 The refactor of stock analysis is done in Module 2. In this module, we have used the code to loop through all the data one time in order to collect the same information we did in module 1. Refactoring this code will help make this VBA script faster. Below are the steps of VBA script and the coding used to perform this analysis. 
 
 **Step 1**
@@ -99,10 +99,10 @@ Worksheets(yearValue).Activate
 
 ![VBA_Challenge_2018](https://github.com/Zainak94/stock-analysis/blob/main/VBA_Challenge_2018.PNG)
 
-### **Summary**
+## **Summary**
 
 
-## **Advantages and Disadvantages of Refactoring**
+### **Advantages and Disadvantages of Refactoring**
 
 **Pros**
 
@@ -116,7 +116,7 @@ Worksheets(yearValue).Activate
 •	If you were to copy and paste the coding, you might run into duplication. 
 •	Refactoring can affect the testing of outcomes. There were multiple outcomes received while running the data but they were fixed after careful analysis of the code.
 
-## **Pros & Cons apply to refactoring the original VBA script**
+### **Pros & Cons apply to refactoring the original VBA script**
 
 **Pros**
 
