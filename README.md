@@ -102,7 +102,7 @@ Worksheets(yearValue).Activate
 ### **Summary**
 
 
-1.	What are the advantages or disadvantages of refactoring code?
+##**Advantages and Disadvantages of Refactoring**##
 
 **Pros**
 
@@ -116,7 +116,7 @@ Worksheets(yearValue).Activate
 •	If you were to copy and paste the coding, you might run into duplication. 
 •	Refactoring can affect the testing of outcomes. There were multiple outcomes received while running the data but they were fixed after careful analysis of the code.
 
-2.	How do these pros and cons apply to refactoring the original VBA script?
+##**Pros & Cons apply to refactoring the original VBA script**##
 
 **Pros**
 
