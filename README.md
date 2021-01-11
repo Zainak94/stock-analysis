@@ -41,13 +41,15 @@ Worksheets(yearValue).Activate
  **Step 3**
  
   '3a) Increase volume for current ticker
-            tickerVolumes(tickerIndex) = tickerVolumes(tickerIndex) + Cells(j, 8).Value
+      
+      tickerVolumes(tickerIndex) = tickerVolumes(tickerIndex) + Cells(j, 8).Value
                 
          
   '3b) Check if the current row is the first row with the selected tickerIndex.
         'If  Then
-           If Cells(j - 1, 1).Value <> tickers(tickerIndex) And Cells(j, 1).Value = tickers(tickerIndex) Then
-            tickerStartingPrices(tickerIndex) = Cells(j, 6).Value
+           
+       If Cells(j - 1, 1).Value <> tickers(tickerIndex) And Cells(j, 1).Value = tickers(tickerIndex) Then
+       tickerStartingPrices(tickerIndex) = Cells(j, 6).Value
              
             End If
             
@@ -56,11 +58,14 @@ Worksheets(yearValue).Activate
   '3c) check if the current row is the last row with the selected ticker
          'If the next row’s ticker doesn’t match, increase the tickerIndex.
         'If  Then
-            If Cells(j + 1, 1).Value <> tickers(tickerIndex) And Cells(j, 1).Value = tickers(tickerIndex) Then
-           '3d Increase the tickerIndex.
-            tickerEndingPrices(tickerIndex) = Cells(j, 6).Value
-            End If
+        
+       If Cells(j + 1, 1).Value <> tickers(tickerIndex) And Cells(j, 1).Value = tickers(tickerIndex) Then
+       '3d Increase the tickerIndex.
+        tickerEndingPrices(tickerIndex) = Cells(j, 6).Value
+        
         'End If
+            End If
+        
         
   '3d) 'Write a script that increases the tickerIndex if the next row’s ticker doesn’t match the previous row’s ticker
         
