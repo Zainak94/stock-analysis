@@ -91,18 +91,18 @@ Worksheets(yearValue).Activate
 
     Next i
 
-**Outcomes 2017** 
+### **Outcomes 2017** 
 
 ![VBA_Challenge_2017](https://github.com/Zainak94/stock-analysis/blob/main/VBA_Challenge_2017.PNG)
 
-**Outcomes 2018**
+### **Outcomes 2018**
 
 ![VBA_Challenge_2018](https://github.com/Zainak94/stock-analysis/blob/main/VBA_Challenge_2018.PNG)
 
 ### **Summary**
 
 
-##**Advantages and Disadvantages of Refactoring**
+## **Advantages and Disadvantages of Refactoring**
 
 **Pros**
 
@@ -116,7 +116,7 @@ Worksheets(yearValue).Activate
 •	If you were to copy and paste the coding, you might run into duplication. 
 •	Refactoring can affect the testing of outcomes. There were multiple outcomes received while running the data but they were fixed after careful analysis of the code.
 
-##**Pros & Cons apply to refactoring the original VBA script**
+## **Pros & Cons apply to refactoring the original VBA script**
 
 **Pros**
 
