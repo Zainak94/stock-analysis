@@ -141,3 +141,4 @@ Overall, it gives us clear picture of which stocks will be worth investing in. R
 •	Using the original VBA script can help refractor but at the same time but you might run into some issues. With few errors in coding can change the result. It will be unable     to provide the same outcome as it did previously. 
 
 •	We have to re-check and pay attention to the code refactoring multiple times to run the correct analysis. 
+
